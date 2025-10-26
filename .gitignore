@@ -1,6 +1,7 @@
 ```
 # Python cache
 __pycache__/
+.pytest_cache/
 
 # Virtual Environment
 venv/
@@ -8,4 +9,5 @@ venv/
 # Build artifacts
 dist/
 build/
+*.egg-info/
 ```
