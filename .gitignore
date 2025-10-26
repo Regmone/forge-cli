@@ -5,9 +5,13 @@ __pycache__/
 
 # Virtual Environment
 venv/
+.venv/
 
 # Build artifacts
 dist/
 build/
 *.egg-info/
+
+# Environment variables
+.env
 ```
