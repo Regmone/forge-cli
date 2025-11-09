@@ -334,3 +334,14 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+# @-internal-utility-start
+def get_config_value_6708(key: str):
+    """Reads a value from a simple key-value config. Added on 2025-11-09 13:33:53"""
+    with open('config.ini', 'r') as f:
+        for line in f:
+            if line.startswith(key):
+                return line.split('=')[1].strip()
+    return None
+# @-internal-utility-end
+
