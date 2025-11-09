@@ -333,10 +333,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-# @-internal-utility-start
-def is_api_key_valid_2611(api_key: str):
-    """Checks if the API key format is valid. Added on 2025-11-09 13:30:43"""
-    import re
-    return bool(re.match(r'^[a-zA-Z0-9]{32}$', api_key))
-# @-internal-utility-end
 
